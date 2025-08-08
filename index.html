@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav role="navigation" class="navbar-inverse">
+                <div class="container">
+
+                    <div class="navbar-header header">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1><a href="#">КинрМонстры</a></h1>
+                                    <p>Кино - наша страсть!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" data-target="#navbarCplaps" data-toggle="collaose" class="navbar-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <div id="navbarCollapse" class="collaose navbar-collapse">
+
+                    <ul class="nav nav-pills">
+                        <li class="active"><a href="#">Главная</a></li>
+                        <li><a href="#">Фильмы</a></li>
+                        <li><a href="#">Сереалы</a></li>
+                        <li><a href="#">Рейтинг фильмов</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-lg-push-3">
+                    <h2>Новые Фильмы</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img src="img/inter.PNG" alt="Интерстеллар">
+                            <div class="film_label">интерстеллар</div>
+                        </div>
+                            <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img src="img/matrix.PNG" alt="Матрица">
+                            <div class="film_label">Матрица</div>
+                            </div>
+                            <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img src="img/cloud.PNG" alt="Девид Митчел">
+                            <div class="film_label">Девид Митчел</div>
+                            </div>
+                            <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img src="img/max.PNG" alt="Безумный Макс">
+                            <div class="film_label">Безумный Макс</div>
+                        </div>
+                        <h2>Новые Сереалы</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img src="img/wight.PNG" alt="Во все тяжкие">
+                            <div class="film_label">Во все тяжкие</div>
+                        </div>
+                            <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img src="img/walkigdead.PNG" alt="Смертельная Ходьба">
+                            <div class="film_label">Смертельная Ходьба</div>
+                            </div>
+                            <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img src="img/xfiles.PNG" alt="Секретные Матерялы">
+                            <div class="film_label">Секретные Матерялы</div>
+                            </div>
+                            <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img src="img/selecon.PNG" alt="Кремневая Долина">
+                            <div class="film_label">Кремневая Долина</div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-lg-pull-9">
+                   <div class="panel panel-default">
+                       <div class="panel-body">
+                            <div class="panel panel-info hidden-xs">
+                                <div class="panel-heading"><div class="sidebar-header">Поиск</div></div>
+                                <DIV class="panel-body">
+                                    <form role="search">
+                                        <div class="form-group">
+                                           <div class="input-group">
+                                            <input type="search" class="form-control input-lg" placeholder="Ваш Запрос">
+                                            <div class="input-group-bth">
+                                                <button class="btn btn-default btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                            </div>
+                                           </div>
+                                        </div>
+                                    </form>
+                                </DIV>
+                            </div>
+                            <div class="panel panel-info">
+                                <div class="panel-heading"><div class="sidebar-header>Вход"></div></div>
+                                <div class="panel-body">
+
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control input-lg" placeholder="Логин">
+                                        </div>
+                                        <div class="form-group">
+                                        <input type="text" class="form-control input-lg" placeholder="Пароль">
+                                        </div>
+
+                                        <button type="submit" class="btn btn-warning pull-right">вход</button>
+                                    </form>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="clear"></div>
+    </div>
+    <footer>
+      <div class="container">
+        <p class="text-center"> <a href="https://digitalkids.com.ua" target="_blank">DigitalKids</a></p>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
